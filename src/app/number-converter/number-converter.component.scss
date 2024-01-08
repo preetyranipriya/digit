@@ -1,0 +1,43 @@
+// number-converter.component.scss
+
+.number-converter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // margin: 10px;
+  font-family: 'Arial', sans-serif;
+  background-color: #9ac9eb; // Light gray background
+  
+  label {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: #333;
+  }
+
+  input {
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.3rem;
+      margin-bottom: 1.5rem;
+      width: 200px;
+
+      &:focus {
+          outline: none;
+          border-color: #4285f4; // Google Blue
+      }
+  }
+
+  div {
+      background-color: #74cbca; // White background
+      padding: 1rem;
+      border-radius: 0.3rem;
+
+      p {
+          font-size: 1.5rem; // Larger font size
+          font-weight: bold;
+          color: #333;
+          margin: 0; // Remove default margin
+      }
+  }
+}

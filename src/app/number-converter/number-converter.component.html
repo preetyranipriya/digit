@@ -1,0 +1,12 @@
+<!-- number-converter.component.html -->
+
+<div class="number-converter-container">
+    <label for="numberInput">Enter a number:</label>
+    <input type="number" [(ngModel)]="inputNumber" />
+    <!-- <button (click)="convert()">Convert</button> -->
+    
+    <div>
+      <p>{{ inputNumber | numberToWords }}</p>
+    </div>
+  </div>
+  
